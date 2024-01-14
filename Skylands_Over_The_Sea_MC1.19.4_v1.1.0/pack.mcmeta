@@ -15,21 +15,6 @@
         "color": "#ffc76f"
       }
     ],
-    "pack_format": 15,
-    "supported_formats": [
-      15,
-      999
-    ]
-  },
-  "overlays": {
-    "entries": [
-      {
-        "formats": [
-          18,
-          999
-        ],
-        "directory": "overlay1"
-      }
-    ]
+    "pack_format": 12
   }
 }
