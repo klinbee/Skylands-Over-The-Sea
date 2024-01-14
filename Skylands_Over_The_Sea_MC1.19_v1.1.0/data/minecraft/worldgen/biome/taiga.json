@@ -8,7 +8,7 @@
   },
   "temperature": 0.5,
   "downfall": 0.8,
-  "has_precipitation": true,
+  "precipitation": "rain",
   "effects": {
     "fog_color": 12638463,
     "mood_sound": {
@@ -17,13 +17,7 @@
       "sound": "minecraft:ambient.cave",
       "tick_delay": 6000
     },
-    "music": {
-      "max_delay": 24000,
-      "min_delay": 12000,
-      "replace_current_music": false,
-      "sound": "minecraft:music.overworld.old_growth_taiga"
-    },
-    "sky_color": 8168447,
+    "sky_color": 8233983,
     "water_color": 4159204,
     "water_fog_color": 329011,
     "grass_color": 8828803,
@@ -36,8 +30,7 @@
       "minecraft:lake_lava_surface"
     ],
     [
-      "minecraft:amethyst_geode",
-      "minecraft:forest_rock"
+      "minecraft:amethyst_geode"
     ],
     [
       "minecraft:monster_room",
@@ -83,14 +76,11 @@
     [
       "minecraft:glow_lichen",
       "minecraft:patch_large_fern",
-      "minecraft:trees_old_growth_pine_taiga",
+      "minecraft:trees_taiga",
       "minecraft:flower_default",
-      "minecraft:patch_grass_taiga",
-      "minecraft:patch_dead_bush",
-      "minecraft:brown_mushroom_old_growth",
-      "minecraft:red_mushroom_old_growth",
-      "minecraft:brown_mushroom_normal",
-      "minecraft:red_mushroom_normal",
+      "minecraft:patch_grass_taiga_2",
+      "minecraft:brown_mushroom_taiga",
+      "minecraft:red_mushroom_taiga",
       "minecraft:patch_sugar_cane",
       "minecraft:patch_pumpkin",
       "minecraft:patch_berry_common"
@@ -166,13 +156,13 @@
         "type": "minecraft:zombie",
         "maxCount": 4,
         "minCount": 4,
-        "weight": 100
+        "weight": 95
       },
       {
         "type": "minecraft:zombie_villager",
         "maxCount": 1,
         "minCount": 1,
-        "weight": 25
+        "weight": 5
       },
       {
         "type": "minecraft:skeleton",
