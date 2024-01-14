@@ -1,0 +1,35 @@
+{
+  "pack": {
+    "description": [
+      {
+        "text": "SotS Alex's Caves Compat",
+        "color": "#009999"
+      },
+      "\n",
+      {
+        "text": "Made by ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Quidvio",
+        "color": "#ffc76f"
+      }
+    ],
+    "pack_format": 15,
+    "supported_formats": [
+      15,
+      999
+    ]
+  },
+  "overlays": {
+    "entries": [
+      {
+        "formats": [
+          18,
+          999
+        ],
+        "directory": "overlay1"
+      }
+    ]
+  }
+}

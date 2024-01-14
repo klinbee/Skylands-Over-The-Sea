@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:add",
+  "argument1": "sots:terrain/default",
+  "argument2": "sots:terrain/floating_islands_reduced"
+}

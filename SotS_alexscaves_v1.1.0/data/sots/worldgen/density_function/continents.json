@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:range_choice",
+  "input": "minecraft:y",
+  "min_inclusive": 24,
+  "max_exclusive": 96,
+  "when_in_range": "sots:continents_no_land",
+  "when_out_of_range": "sots:continents_less_oceans"
+}

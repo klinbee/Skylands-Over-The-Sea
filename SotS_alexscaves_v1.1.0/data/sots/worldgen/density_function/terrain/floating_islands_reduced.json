@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:clamp",
+  "input": {
+    "type": "minecraft:squeeze",
+    "argument": {
+      "type": "minecraft:mul",
+      "argument1": 0.80,
+      "argument2": {
+        "type": "minecraft:interpolated",
+        "argument": {
+          "type": "minecraft:blend_density",
+          "argument": {
+            "type": "minecraft:add",
+            "argument1": "sots:terrain/reduction_oceans",
+            "argument2": "sots:terrain/floating_islands"
+          }
+        }
+      }
+    }
+  },
+  "max": 10,
+  "min": -0.001
+}
