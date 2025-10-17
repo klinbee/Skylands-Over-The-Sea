@@ -53,12 +53,6 @@
         "directory": "overlay_1_21_5"
       },
       {
-        "formats": [80, 999],
-        "min_format": 80,
-        "max_format": 999,
-        "directory": "overlay_1_21_6"
-      },
-      {
         "formats": [88, 999],
         "min_format": 88,
         "max_format": 999,
